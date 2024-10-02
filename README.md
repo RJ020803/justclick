@@ -28,6 +28,6 @@ This project is an image gallery built with **Next.js**. The gallery contains di
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/I-am-nagesh/jstClkAPP.git
+git clone https://github.com/RJ020803/justclick
 cd gallery-project
 
