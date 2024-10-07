@@ -8,21 +8,21 @@ export default function animal() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
+        src="https://images.unsplash.com/photo-1689849790396-4cd31129c95d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb24lMjBhbmQlMjBiZWF1dHl8ZW58MHx8MHx8fDA%3D"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+        src="https://images.unsplash.com/photo-1583843364289-0d1b2978874c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMGFuZCUyMGJlYXV0eXxlbnwwfHwwfHx8MA%3D%3D"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+        src="https://media.istockphoto.com/id/1171026448/photo/listening-to-the-sounds-of-the-streets.webp?a=1&b=1&s=612x612&w=0&k=20&c=OhAd3NvohYpUGdpceKLhUX3Hul54D4w28MGzfL7jRE0="
         alt="gallery-photo"
       />
     </div>
@@ -31,21 +31,21 @@ export default function animal() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"
+        src="https://media.istockphoto.com/id/915165544/photo/outdoor-photo-of-young-lady-in-hat-and-sunglasses.webp?a=1&b=1&s=612x612&w=0&k=20&c=M1drnVrrGztYFzQP3zsfCWpsg-CXryf8Zy9Ant9pHgg="
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+        src="https://plus.unsplash.com/premium_photo-1724412015365-86e02ba93fce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZhc2hpb24lMjBhbmQlMjBiZWF1dHl8ZW58MHx8MHx8fDA%3D"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://docs.material-tailwind.com/img/team-3.jpg"
+        src="https://tse3.mm.bing.net/th?id=OIP.ufM48nHu950vwtmBQKOifgHaSR&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
@@ -54,21 +54,21 @@ export default function animal() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+        src="https://plus.unsplash.com/premium_photo-1724412015476-94a61a3a0f21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmFzaGlvbiUyMGFuZCUyMGJlYXV0eXxlbnwwfHwwfHx8MA%3D%3D"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://docs.material-tailwind.com/img/team-3.jpg"
+        src="https://images.pexels.com/photos/27118152/pexels-photo-27118152/free-photo-of-portrait-of-a-bengali-bride-performing-hindu-wedding.jpeg?auto=compress&cs=tinysrgb&w=600"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"
+        src="https://plus.unsplash.com/premium_photo-1678377959909-3542d8096fa5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFzaGlvbiUyMGFuZCUyMGJlYXV0eXxlbnwwfHwwfHx8MA%3D%3D"
         alt="gallery-photo"
       />
     </div>
@@ -77,14 +77,14 @@ export default function animal() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"
+        src="https://images.unsplash.com/photo-1685870909586-2a019c509667?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaGlvbiUyMGFuZCUyMGJlYXV0eXxlbnwwfHwwfHx8MA%3D%3D"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+        src="https://images.unsplash.com/photo-1689849790865-3b51f5703022?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb24lMjBhbmQlMjBiZWF1dHl8ZW58MHx8MHx8fDA%3D"
         alt="gallery-photo"
       />
     </div>

@@ -8,21 +8,21 @@ export default function People() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
+        src="https://tse2.mm.bing.net/th?id=OIP.cF3PM3kvW8I0MO6x74hJewHaFJ&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+        src="https://tse3.mm.bing.net/th?id=OIP.aBD0xW7umn14J2a86Gwi8gHaHj&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+        src="https://tse3.mm.bing.net/th?id=OIP.R6mrtjgmQIO52nqStClJnAHaEK&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
@@ -31,21 +31,21 @@ export default function People() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"
+        src="https://tse2.mm.bing.net/th?id=OIP.U4vkUhiY2Ro4FvJl9eKyygHaLH&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+        src="https://tse1.mm.bing.net/th?id=OIP.aZeCTZdVgvzoKHaSKanoZgHaLG&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://docs.material-tailwind.com/img/team-3.jpg"
+        src="https://tse2.mm.bing.net/th?id=OIP.HorykdvZhNd7mRQfTadvgwHaE8&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
@@ -54,21 +54,21 @@ export default function People() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+        src="https://tse3.mm.bing.net/th?id=OIP.IgD8XWN1jc78bRavBxM8cAHaE8&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://docs.material-tailwind.com/img/team-3.jpg"
+        src="https://tse4.mm.bing.net/th?id=OIP.ARQh7qBQCeDp5V3DvvKT_wHaFj&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"
+        src="https://tse2.mm.bing.net/th?id=OIP.PDLyol_hHeqivVi-XYhhwwHaE8&pid=Api&P=0&h=180"
         alt="gallery-photo"
       />
     </div>
@@ -77,14 +77,14 @@ export default function People() {
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=687&amp;q=80"
+        src="https://images.pexels.com/photos/6621675/pexels-photo-6621675.jpeg?auto=compress&cs=tinysrgb&w=600"
         alt="gallery-photo"
       />
     </div>
     <div>
       <img
         className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+        src="https://images.pexels.com/photos/1462636/pexels-photo-1462636.jpeg?auto=compress&cs=tinysrgb&w=600"
         alt="gallery-photo"
       />
     </div>
