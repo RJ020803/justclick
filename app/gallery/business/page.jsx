@@ -1,95 +1,64 @@
-import React from 'react'
+"use client";
+import React, { useState } from "react";
 
-export default function business() {
+export default function AnimalGallery() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openModal = (image) => {
+    setSelectedImage(image);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
+
+  const images = [
+    "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1507537417841-81e85feb9bd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://plus.unsplash.com/premium_photo-1672691611367-2917c0cbff0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1511376979163-f804dff7ad7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://plus.unsplash.com/premium_photo-1683133282266-13c620466f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTd8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://plus.unsplash.com/premium_photo-1670071482028-7cecdcf42add?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGJ1c2luZXNzfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1577415124269-fc1140a69e91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxidXNpbmVzc3xlbnwwfHwwfHx8MA%3D%3D",
+  ];
+
   return (
     <>
-    <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-  <div className="grid gap-4">
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1c2luZXNzfGVufDB8fDB8fHww"
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://images.unsplash.com/photo-1664575599730-0814817939de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3N8ZW58MHx8MHx8fDA%3D"
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1664575601786-b00156752b61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1c2luZXNzfGVufDB8fDB8fHww"
-        alt="gallery-photo"
-      />
-    </div>
-  </div>
-  <div className="grid gap-4">
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://media.istockphoto.com/id/1805461591/photo/group-of-confident-business-people-point-to-graphs-and-charts-to-analyze-market-data-balance.webp?a=1&b=1&s=612x612&w=0&k=20&c=djfhLD0iYu7dEvAa75eKOU5ABDbvjoxF6HzSxbuMilA="
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://media.istockphoto.com/id/1827291486/photo/a-dedicated-mentor-is-explaining-mentees-importance-of-project-while-sitting-at-the-boardroom.webp?a=1&b=1&s=612x612&w=0&k=20&c=3PCse04HxmDXn6LsY1MuQsh01AflW_wR0jwF4tYZ8QY="
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://media.istockphoto.com/id/2021524839/photo/business-finance-and-investment-analyze-economic-growth-charts-for-informed-business-finance.webp?a=1&b=1&s=612x612&w=0&k=20&c=3q6YcKPaF_wJazQJ9rTnHg2yn4pV_lXu3eaDdlpEOk4="
-        alt="gallery-photo"
-      />
-    </div>
-  </div>
-  <div className="grid gap-4">
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://media.istockphoto.com/id/1887444236/photo/two-business-professionals-discussing-ideas-in-an-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=RNwmsDm1eTR67-UtCCrZCXUUr8rj26yy5UGGRJ0JKiU="
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center "
-        src="https://images.unsplash.com/photo-1664575600796-ffa828c5cb6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzfGVufDB8fDB8fHww"
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://plus.unsplash.com/premium_photo-1661775522763-451d7783b453?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJ1c2luZXNzfGVufDB8fDB8fHww"
-        alt="gallery-photo"
-      />
-    </div>
-  </div>
-  <div className="grid gap-4">
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1635360484712-99d9aa549d9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJ1c2luZXNzfGVufDB8fDB8fHww"
-        alt="gallery-photo"
-      />
-    </div>
-    <div>
-      <img
-        className="h-auto max-w-full rounded-lg object-cover object-center"
-        src="https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVzaW5lc3N8ZW58MHx8MHx8fDA%3D"
-        alt="gallery-photo"
-      />
-    </div>
-  </div>
-</div>
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 p-4">
+        {images.map((image, index) => (
+          <div key={index} className="grid gap-4">
+            <div>
+              <img
+                onClick={() => openModal(image)}
+                className="h-auto max-w-full rounded-lg object-cover object-center cursor-pointer transition-transform transform hover:scale-105 hover:opacity-100 opacity-70"
+                src={image}
+                alt={`gallery-photo-${index}`}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50"
+          onClick={closeModal}
+        >
+          <div className="relative w-[90vh] h-[90vh]">
+            <img
+              src={selectedImage}
+              alt="Preview"
+              className="absolute inset-0 w-full h-full rounded-3xl border object-cover"
+            />
+            <button
+              className="absolute right-0 bg-red-900 text-black rounded-full p-2 focus:outline-none hover:bg-blue-600"
+              onClick={closeModal}
+            >
+              X
+            </button>
+          </div>
+        </div>
+      )}
     </>
-  )
+  );
 }
